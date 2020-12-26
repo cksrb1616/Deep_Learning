@@ -1,0 +1,6 @@
+End to End object Detection with Transformation
+
+Advantage : compared to exist objection detecion technology, it simpler and ability is compatible.
+
+DETR (DEtection TRansformer) : 1. binary matching loss function
+                             + 2. Transformer
