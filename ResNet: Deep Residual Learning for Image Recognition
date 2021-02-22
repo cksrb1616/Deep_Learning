@@ -1,0 +1,12 @@
+VGG Network uses small sized "3x3" convolution filters(fc) at the end => deepen the depth of the layer
+=> Higher performance (lower error rate)
+
+Simply depth of layer is related to good performance? No
+Still parameter is too many
+=> ResNet is solution (which use Residual Block)
+=> lower the difficulty of optimization
+
+Actually it is difficult to installed or contained mapping, H(x), is difficult to directly learn.
+Therefore, F(x) = H(x)-x is learned as a instead.
+Previously learned result x, x identity, is brought then residual F(x) is learned.
+Summing up of x and F(x) will be H(x) but it is faster.
